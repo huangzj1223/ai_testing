@@ -125,6 +125,6 @@ async def main(message: cl.Message):
     res = await cl.make_async(chat_engine.stream_chat)(message.content)
 
     # 流式界面输出
-    for token in res.response_gen:
-        await msg.stream_token(token)
-    await msg.send()
+    # for token in res.response_gen:
+    #     await msg.stream_token(token)
+    # await msg.send()
