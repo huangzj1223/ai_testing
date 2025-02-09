@@ -1,0 +1,13 @@
+chainlit~=2.0.5
+aiofiles~=23.2.1
+literalai~=0.1.103
+minio~=7.2.15
+aiohttp~=3.11.11
+SQLAlchemy~=2.0.37
+PyMySQL~=1.1.1
+aiomysql~=0.2.0
+pandas~=2.2.3
+llama-index-core~=0.12.12
+pydantic~=2.10.5
+openai~=1.59.9
+asyncpg~=0.30.0
